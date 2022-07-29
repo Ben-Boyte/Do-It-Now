@@ -7,7 +7,8 @@
   </div>
 
   <div>
-    <button type="submit">add comment</button>
+    <button type="submit">Comment</button>
+    <button type="button" class="upvote-btn">Like</button>
   </div>
 </form>
 {{/if}}
@@ -16,4 +17,5 @@
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
+<script src="/javascript/upvote.js"></script>
 {{/if}}
