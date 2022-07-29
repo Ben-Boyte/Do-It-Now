@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Do It Now!</title>
+  <title>To Do List</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
@@ -12,13 +12,14 @@
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">Do It Now!</a>
+        <a href="/">Just Do It Already!</a>
       </h1>
       <nav>
         {{#if loggedIn}}
-        <button id="logout" class="btn-no-style">Log Out</button>
+        <a href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button>
         {{else}}
-        <a href="/login">Login</a>
+        <a href="/login">login</a>
         {{/if}}
       </nav>
     </header>
@@ -26,7 +27,7 @@
       {{{ body }}}
     </main>
     <footer>
-      Think It! Dream It! Do It!
+      Thanks for visiting!
     </footer>
   </div>
   
