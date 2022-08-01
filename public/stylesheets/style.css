@@ -7,12 +7,13 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: #f5f5f5;
+  background-color: #625e5e;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #f5f5f5;
   font-weight: bold;
   transition: color .1s;
 }
@@ -22,7 +23,7 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #2f76ce;
   border: 0;
   padding: 1%;
   color: white;
@@ -33,7 +34,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  border: 3px solid #3486eb;
 }
 
 .post-list {
@@ -97,7 +98,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #2f76ce;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -105,10 +106,13 @@ main {
 }
 
 .btn-no-style:hover {
-  background: none;
-  color: #3486eb;
+  background-color: #2f76ce;
+  color: #f5f5f5;
+  border: 3px solid #3486eb
 }
-
+/*#2f7c3*/
+/*f5f5f5*/
+/*ffffff*/
 .delete-post-btn {
   background-color: #d41414;
 }
@@ -116,12 +120,25 @@ main {
 .delete-post-btn:hover {
   background-color: #ff643d;
 }
-
+/*Dashboard Styling*/
+.new-post-section {
+  background-color: #f5f5f5;
+  color: #625e5e;
+  padding: 5%;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.new-post-section h2 {
+  text-align: center;
+}
 .post {
   margin-bottom: 2%;
   line-height: 150%;
 }
-
+.post-note {
+  border: 3px solid #3486eb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .post .title span {
   font-style: italic;
   font-size: 90%;
