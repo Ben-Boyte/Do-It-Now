@@ -2,7 +2,7 @@
 ## Description
 A motivational note taking application giving users the ability to post and delete notes as well as leave comments on others.
 
-![badge](https://img.shields.io/badge/license-GNUGPLv3-brightorange)
+[Link to Application](https://bensdoitnow.herokuapp.com/)
 
 ## Table of Contents
   * [Installation](#installation)
